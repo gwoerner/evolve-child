@@ -1,0 +1,188 @@
+/*
+ Theme Name: Evolve Child
+ Description: Evolve Child Theme
+ Author: Geraldine Sanchez
+ Template: evolve
+ Version: 1.0.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain: evolve-child
+*/
+
+
+body {
+    background-color: #ffffff !important;
+}
+
+.header {
+    height: 350px;
+}
+
+#logo a {
+    color: transparent !important;
+    font-size: 8em !important;
+    text-align: center !important;
+}
+
+#tagline {
+    color: transparent !important;
+}
+
+#rdv h3, #rdv p a {
+    color: #2DBEDB !important;
+}
+
+#publications h3, #publications p a{
+    color: #F8A13C!important;
+}
+
+#publications p a {
+    color: #F8A13C !important;
+}
+
+#actualites h3, #actualites p a {
+    color: #ef5a92!important;
+}
+
+#comptes-rendus h3, #comptes-rendus p a {
+    color: #BAD66C !important;
+}
+
+#archives h3, #archives p a {
+    color: #C060A3 !important;
+}
+
+
+h2 a {
+    color: #3c3c3c !important;
+}
+
+
+
+.su-post-excerpt p {
+    font-weight: normal;
+}
+
+
+
+.menu-back, .menu-header {
+/*    position: absolute;
+    top: 250px*/
+    background-image: none !important;
+    background-color: #ffffff !important;
+}
+
+.header-widgets {
+    padding-top: 0px;
+}
+
+.header-widgets .col-md-3, .header-widgets .col-sm-6 {
+    margin: 0px;
+}
+
+#search-3 {
+    position: relative;
+    top: -35px !important;
+    z-index: 30;
+}
+
+.widget-content {
+    margin-bottom: 0px !important;
+}
+
+.home {
+    padding-top: 20px;
+}
+
+.home .entry-title {
+    display: none;
+}
+
+.menu-back .container {
+    position: absolute;
+}
+
+#logo a {
+
+}
+
+img {
+    box-shadow: none;
+}
+
+.su-post .attachment-post-thumbnail {
+    margin-bottom: 20px;
+}
+
+@media all and (min-width: 768px) {
+    #comptes-rendus .col-md-2 {
+    width: 22%;
+    margin: 10px;
+    height: 100px;
+}
+}
+
+@media all and (max-width: 768px) {
+    #comptes-rendus .col-sm-6 {
+    width: 45%;
+    margin: 1%;
+    height: 80px;
+}
+}
+
+.philopol h4, .philoboulot h4, .securite-justice h4, .creativite h4, .numerique h4 {
+    line-height: 2.9em;
+}
+
+.button {
+    border-color: ;
+}
+
+.philopol {
+    background: #BBB !important;
+    border-color: #BBB !important;
+    box-shadow: none !important;
+}
+
+.philoboulot {
+    background: #2DBEDB !important;
+    border-color: #2DBEDB !important;
+    box-shadow: none !important;
+}
+
+.nip {
+    background: #BAD66C !important;
+    border-color: #BAD66C !important;
+    box-shadow: none !important;
+}
+
+.securite-justice {
+    background: #F8A13C !important;
+    border-color: #F8A13C !important;
+    box-shadow: none !important;
+}
+
+.vlan {
+    background: #C060A3 !important;
+    border-color: #C060A3 !important;
+    box-shadow: none !important;
+}
+
+.ess {
+    background: #ef5a92 !important;
+    border-color: #ef5a92 !important;
+    box-shadow: none !important;
+}
+
+.creativite {
+    background: #598DC8 !important;
+    border-color: #598DC8 !important;
+    box-shadow: none !important;
+}
+
+.numerique {
+    background: #f1d031 !important;
+    border-color: #f1d031 !important;
+    box-shadow: none !important;
+}
+
