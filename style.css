@@ -9,6 +9,10 @@
  Text Domain: evolve-child
 */
 
+/* ===============================================================================
+Mise en page générale
+================================================================================ */
+
 
 body {
     background-color: #ffffff !important;
@@ -110,9 +114,6 @@ img {
     box-shadow: none;
 }
 
-.su-post .attachment-post-thumbnail {
-    margin-bottom: 20px;
-}
 
 @media all and (min-width: 768px) {
     #comptes-rendus .col-md-2 {
@@ -184,5 +185,53 @@ img {
     background: #f1d031 !important;
     border-color: #f1d031 !important;
     box-shadow: none !important;
+}
+
+/*!==========================================================================
+   Bloc d'actualité
+   ========================================================================== */
+
+.su-posts .row {
+    margin-right: 0px;  /* supprime la marge -15px sur les row */
+    margin-left: 0px;
+}
+
+.su-post {
+    padding: 0px 25px !important;
+}
+
+.su-post h2 {
+    padding-bottom: 20px !important;
+}
+
+.su-post-excerpt {
+    height: 300px;
+    padding-top: 20px;
+}
+
+.su-posts .readmorebtn {
+    display: block;
+    text-align: right;
+    /*vertical-align: bottom;*/
+}
+
+.titre-actualite {
+    height: 100px;
+}
+
+.su-post-title a {
+    text-align: left !important;
+}
+
+.image-actualite, .su-post-thumbnail {
+    height: 75px !important;
+    width: 200px !important;
+    margin-bottom: 10px;    
+}
+
+.image-actualite img {
+    /*height: 75px;*/
+    width: 200px;
+    max-width: 300px !important;   
 }
 
