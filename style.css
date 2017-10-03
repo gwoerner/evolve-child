@@ -10,13 +10,57 @@
 */
 
 /* ===============================================================================
+Insertion des polices
+================================================================================ */
+
+/* Importation de la font ASAP */
+@import "fonts/asap/stylesheet.css";
+
+/* Importation de la font Panefresco */
+@import "fonts/panefresco/stylesheet.css";
+
+
+/* ===============================================================================
 Mise en page générale
 ================================================================================ */
 
 
 body {
     background-color: #ffffff !important;
+    font-family: 'Gudea', 'Roboto', 'Arial', sans-serif !important;
 }
+
+h1, h2 {
+    font-family: "Carlito", "Arial", sans-serif !important;
+}
+
+h3, h4, h5, h6 {
+    font-family: "Overlock", "Arial", sans-serif !important;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.titre-accueil {
+    font-size: 1.8em !important;
+    border-bottom: dotted 1px;
+    width: 40%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    box-shadow: none !important;
+}
+
+a {
+    color: #026DB0 !important;
+}
+
+/* ===============================================================================
+En-tête et logo
+================================================================================ */
 
 .header {
     height: 350px;
@@ -32,46 +76,9 @@ body {
     color: transparent !important;
 }
 
-#rdv h3, #rdv p a {
-    color: #2DBEDB !important;
-}
-
-#publications h3, #publications p a{
-    color: #F8A13C!important;
-}
-
-#publications p a {
-    color: #F8A13C !important;
-}
-
-#actualites h3, #actualites p a {
-    color: #ef5a92!important;
-}
-
-#comptes-rendus h3, #comptes-rendus p a {
-    color: #BAD66C !important;
-}
-
-#archives h3, #archives p a {
-    color: #C060A3 !important;
-}
-
-
-h2 a {
-    color: #3c3c3c !important;
-}
-
-
-
-.su-post-excerpt p {
-    font-weight: normal;
-}
-
-
-
 .menu-back, .menu-header {
-/*    position: absolute;
-    top: 250px*/
+    /*    position: absolute;
+        top: 250px*/
     background-image: none !important;
     background-color: #ffffff !important;
 }
@@ -106,90 +113,32 @@ h2 a {
     position: absolute;
 }
 
-#logo a {
 
+/* ===============================================================================
+Nos rendez-vous
+================================================================================ */
+
+#rdv p {
+    margin: 20px 0px;
 }
 
-img {
-    box-shadow: none;
+#rdv h2, #rdv p a, #rdv .readmorebtn {
+    color: #2DBEDB !important;
 }
 
-
-@media all and (min-width: 768px) {
-    #comptes-rendus .col-md-2 {
-    width: 22%;
-    margin: 10px;
-    height: 100px;
-}
-}
-
-@media all and (max-width: 768px) {
-    #comptes-rendus .col-sm-6 {
-    width: 45%;
-    margin: 1%;
-    height: 80px;
-}
-}
-
-.philopol h4, .philoboulot h4, .securite-justice h4, .creativite h4, .numerique h4 {
-    line-height: 2.9em;
-}
-
-.button {
-    border-color: ;
-}
-
-.philopol {
-    background: #BBB !important;
-    border-color: #BBB !important;
-    box-shadow: none !important;
-}
-
-.philoboulot {
-    background: #2DBEDB !important;
-    border-color: #2DBEDB !important;
-    box-shadow: none !important;
-}
-
-.nip {
-    background: #BAD66C !important;
-    border-color: #BAD66C !important;
-    box-shadow: none !important;
-}
-
-.securite-justice {
-    background: #F8A13C !important;
-    border-color: #F8A13C !important;
-    box-shadow: none !important;
-}
-
-.vlan {
-    background: #C060A3 !important;
-    border-color: #C060A3 !important;
-    box-shadow: none !important;
-}
-
-.ess {
-    background: #ef5a92 !important;
-    border-color: #ef5a92 !important;
-    box-shadow: none !important;
-}
-
-.creativite {
-    background: #598DC8 !important;
-    border-color: #598DC8 !important;
-    box-shadow: none !important;
-}
-
-.numerique {
-    background: #f1d031 !important;
-    border-color: #f1d031 !important;
-    box-shadow: none !important;
+#rdv .readmorebtn {
+    position: absolute;
+    right: 40px;
+    border: none;
 }
 
 /*!==========================================================================
    Bloc d'actualité
    ========================================================================== */
+
+#actualites h2, #actualites p a, #actualites .readmorebtn {
+    color: #ef5a92 !important;
+}
 
 .su-posts .row {
     margin-right: 0px;  /* supprime la marge -15px sur les row */
@@ -201,13 +150,22 @@ img {
 }
 
 .su-post h2 {
-    padding-bottom: 20px !important;
+    /*padding-bottom: 20px !important;*/
 }
 
-.su-post-excerpt {
-    height: 300px;
-    padding-top: 20px;
+
+h2 a {
+    color: #3c3c3c !important;
 }
+
+#actualites .su-posts-default-loop h2.su-post-title {
+    margin: 0px !important;
+}
+
+.su-post-excerpt p {
+    font-weight: normal;
+}
+
 
 .su-posts .readmorebtn {
     display: block;
@@ -215,16 +173,18 @@ img {
     /*vertical-align: bottom;*/
 }
 
-.titre-actualite {
-    height: 100px;
-}
 
 .su-post-title a {
     text-align: left !important;
 }
 
+
+.su-post-excerpt {
+    padding-top: 10px;
+}
+
 .image-actualite, .su-post-thumbnail {
-    height: 75px !important;
+    height: 100px !important;
     width: 200px !important;
     margin-bottom: 10px;    
 }
@@ -235,3 +195,218 @@ img {
     max-width: 300px !important;   
 }
 
+@media all and (min-width: 1200px) {
+    .titre-actualite {
+        height: 90px;
+    }
+
+    .su-post-excerpt {
+        height: 330px;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .titre-actualite {
+        height: 90px;
+    }
+
+    .su-post-excerpt {
+        height: 450px;
+    }
+}
+
+/* ===============================================================================
+Nos UPR
+================================================================================ */
+
+#upr h2, #upr p a {
+    color: #F8A13C !important;
+}
+
+/*Blocs colorés UPR*/
+
+
+@media all and (min-width: 768px) {
+    #upr .col-md-2 {
+        width: 22%;
+        margin: 10px;
+        height: 100px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #upr .col-sm-6 {
+        width: 45%;
+        margin: 1%;
+        height: 80px;
+    }
+}
+
+
+.pave {
+    position: relative;
+}
+
+.button:hover {
+    border: none !important;
+    box-shadow: 1px 1px 5px #333 !important;
+}
+
+.pave a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*couleur du texte dans les pavés*/ 
+.pave a h4, .pave a p {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.nip h4, .vlan h4, .ess h4 {
+    margin-bottom: 0px;
+}
+
+.pave a p {
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+
+.philopol {
+    background: #C060A3 !important;
+    border-color: #C060A3 !important;
+    box-shadow: none !important;
+}
+
+.philoboulot {
+    background: #F8A13C !important;
+    border-color: #F8A13C !important;
+    box-shadow: none !important;
+}
+
+.nip {
+    background: #026DB0 !important;
+    border-color: #026DB0 !important;
+    box-shadow: none !important;
+}
+
+.securite-justice {
+    background: #0BCDAC !important;
+    border-color: #0BCDAC !important;
+    box-shadow: none !important;
+}
+
+.vlan {
+    background: #2DBEDB !important;
+    border-color: #2DBEDB !important;
+    box-shadow: none !important;
+}
+
+.ess {
+    background: #ef5a92 !important;
+    border-color: #ef5a92 !important;
+    box-shadow: none !important;
+}
+
+.creativite {
+    background: #BAD66C !important;
+    border-color: #BAD66C !important;
+    box-shadow: none !important;
+}
+
+.numerique {
+    background: #BBB !important;
+    border-color: #BBB !important;
+    box-shadow: none !important;
+}
+
+
+
+/* ===============================================================================
+Nos publications
+================================================================================ */
+
+#publications h2, #publications p a {
+    color: #026DB0 !important;
+}
+
+#publications .su-post-title {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#publications a {
+    text-align: center;
+}
+
+#publications .attachment-post-thumbnail {
+    margin: auto;
+    max-height: 280px;
+}
+
+
+/* ===============================================================================
+Nos évènements en image
+================================================================================ */
+
+#images-videos h2, #images-videos p a {
+    color: #BAD66C !important;
+}
+
+
+/* ===============================================================================
+Archives
+================================================================================ */
+
+#archives h2, #archives ul a {
+    color: #C060A3 !important;
+}
+
+
+/* ===============================================================================
+Pied de page
+================================================================================ */
+
+.footer a {
+    color: #51545C !important;
+}
+
+
+/* ===============================================================================
+Page "Actlualités" et catégories / archives
+================================================================================ */
+
+.page-title, .page .entry-title {
+    font-family: "Carlito", "Roboto", "Arial", sans-serif !important;
+    color: #026DB0 !important;
+    text-transform: uppercase;
+    border-bottom: dotted #026DB0 1px;
+    padding-bottom: 20px;
+}
+
+#category-title, .page h1 {
+    font-weight: bold;
+}
+
+.entry-title a {
+    color: #51545C !important;
+}
+
+/*bouton "lire plus"*/
+.read-more {
+    color: #ffffff !important;
+}
+
+.author {
+    display: none;
+}
+
+.entry-tags {
+    display: none;
+}
