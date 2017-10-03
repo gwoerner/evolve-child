@@ -45,9 +45,14 @@ h3, h4, h5, h6 {
 .titre-accueil {
     font-size: 1.8em !important;
     border-bottom: dotted 1px;
-    width: 40%;
     padding-bottom: 10px;
     margin-bottom: 10px;
+}
+
+@media all and (min-width: 992px) {
+    .titre-accueil {
+        width: 40%;
+    }
 }
 
 img {
