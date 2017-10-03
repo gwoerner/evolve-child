@@ -387,7 +387,7 @@ Pied de page
 Page "Actlualités" et catégories / archives
 ================================================================================ */
 
-.page-title, .page .entry-title {
+.page-title, .page .entry-title, #category-title {
     font-family: "Carlito", "Roboto", "Arial", sans-serif !important;
     color: #026DB0 !important;
     text-transform: uppercase;
