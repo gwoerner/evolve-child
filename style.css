@@ -387,20 +387,21 @@ Pied de page
 Page "Actlualités" et catégories / archives
 ================================================================================ */
 
-.page-title, .page .entry-title, #category-title {
-    font-family: "Carlito", "Roboto", "Arial", sans-serif !important;
-    color: #026DB0 !important;
-    text-transform: uppercase;
+.page-title, .page .entry-title {
     border-bottom: dotted #026DB0 1px;
     padding-bottom: 20px;
 }
 
 #category-title, .page h1 {
+    font-family: "Carlito", "Roboto", "Arial", sans-serif !important;
     font-weight: bold;
+    color: #026DB0 !important;
+    text-transform: uppercase;
 }
 
-.entry-title a {
+.archive .entry-title a {
     color: #51545C !important;
+    font-size: 26px;
 }
 
 /*bouton "lire plus"*/
