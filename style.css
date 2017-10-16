@@ -188,17 +188,27 @@ h2 a {
     padding-top: 10px;
 }
 
+.su-posts-default-loop .su-post-thumbnail img {
+    max-height: 130px !important;
+    max-width: 260px !important;
+}
+
 .image-actualite, .su-post-thumbnail {
-    height: 100px !important;
-    width: 200px !important;
+    height: 130px !important;
+    width: 260px !important;
     margin-bottom: 10px;    
 }
 
-.image-actualite img {
-    /*height: 75px;*/
-    width: 200px;
+.image-actualite .size-post-thumbnail {
+    height: 130px !important;
+    width: 260px !important;
     max-width: 300px !important;   
 }
+
+.image-actualite img {
+    padding: 0px !important;
+}
+
 
 @media all and (min-width: 1200px) {
     .titre-actualite {
@@ -404,6 +414,10 @@ Page "Actlualités" et catégories / archives
     font-size: 26px;
 }
 
+ .blog .entry-title a {
+    font-size: 26px !important;
+ }
+ 
 /*bouton "lire plus"*/
 .read-more {
     color: #ffffff !important;
