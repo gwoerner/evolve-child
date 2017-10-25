@@ -483,14 +483,18 @@ Articles
 ===============================================================================*/
 
 .article h3 {
-    padding: 10px 0 20px 0;
+    padding: 20px 0 20px 0;
     font-weight: bold !important;
     font-size: 25px;
 }
 
 .article h4 {
-    padding: 10px 0 15px 0;
+    padding: 15px 0 15px 0;
     font-weight: bold !important;
     font-style: italic !important;
     font-size: 22px;
+}
+
+.article p {
+    padding-bottom: 7px;
 }
