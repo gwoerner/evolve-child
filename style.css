@@ -442,7 +442,7 @@ Page "Actlualités" et catégories / archives
     color: #333;
 }
 
-.page h4 {
+.page .entry-title h4 {
     padding-bottom: 20px;
     padding-top: 10px;
     font-size: 24px;
@@ -450,11 +450,11 @@ Page "Actlualités" et catégories / archives
     font-style: italic !important;
 }
 
-.page h5 {
+.page .entry-title h5 {
     padding-bottom: 15px;
     padding-top: 10px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .page p {
