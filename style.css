@@ -238,7 +238,7 @@ Nos UPR
     color: #F8A13C !important;
 }
 
-#upr .pave h4 {
+/*#upr .pave h4 {
     font-size: 28px !important;
     font-style: normal !important;
     padding: 0px;
@@ -246,7 +246,7 @@ Nos UPR
 
 #upr p {
     padding: 0px;
-}
+}*/
 
 /*Blocs colorés UPR*/
 
@@ -492,19 +492,19 @@ blockquote {
 Articles
 ===============================================================================*/
 
-.article h3 {
+.post h3 {
     padding: 20px 0 20px 0;
     font-weight: bold !important;
     font-size: 25px !important;
 }
 
-.article h4 {
+.post h4 {
     padding: 15px 0 15px 0;
     font-weight: bold !important;
     font-style: italic !important;
     font-size: 22px !important;
 }
 
-.article p {
+.post p {
     padding-bottom: 7px;
 }
