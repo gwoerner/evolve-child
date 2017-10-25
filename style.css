@@ -243,7 +243,7 @@ Nos UPR
 
 @media all and (min-width: 768px) {
     #upr .col-md-4 {
-/*        width: 22%;*/
+        width: 30%;
         margin: 10px;
         height: 100px;
     }
@@ -339,7 +339,11 @@ Nos UPR
     box-shadow: none !important;
 }
 
-
+.sciences {
+    background: #FBCB09 !important;
+    border-color: #FBCB09 !important;
+    box-shadow: none !important;
+}
 
 /* ===============================================================================
 Nos publications
