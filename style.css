@@ -454,7 +454,7 @@ Page "Actlualités" et catégories / archives
     padding-bottom: 7px;
 }
 
-#fondateurs col-md-3 {
+#fondateurs .col-md-3 {
     min-height: 290px;
     width: 24%;
     margin: 3px;
