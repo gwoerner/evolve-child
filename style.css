@@ -450,17 +450,17 @@ Page "Actlualités" et catégories / archives
 Pages statiques - accessibles depuis le bas de page 
 ===============================================================================*/
 
-.statique .entry-content h3 {
+.statique h3 {
     padding-bottom: 30px;
     padding-top: 10px;
-    font-size: 32px;
+    font-size: 32px !important;
     color: #333;
 }
 
 .statique h4 {
     padding-bottom: 20px;
     padding-top: 20px;
-    font-size: 24px;
+    font-size: 24px !important;
     font-weight: bold !important;
     font-style: italic !important;
 }
@@ -468,7 +468,7 @@ Pages statiques - accessibles depuis le bas de page
 .statique h5 {
     padding-bottom: 15px;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 20px !important;
     font-weight: bold !important;
 }
 
