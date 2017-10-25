@@ -278,7 +278,6 @@ Nos UPR
 .pave a h4, .pave a p {
     color: #FFFFFF;
     font-weight: bold;
-    font-style: normal;
 }
 
 .nip h4, .vlan h4, .ess h4 {
@@ -436,14 +435,14 @@ Page "Actlualités" et catégories / archives
     display: none;
 }
 
-.page .entry-content h3 {
+.statique .entry-content h3 {
     padding-bottom: 30px;
     padding-top: 10px;
     font-size: 32px;
     color: #333;
 }
 
-.page h4 {
+.statique h4 {
     padding-bottom: 20px;
     padding-top: 20px;
     font-size: 24px;
@@ -451,14 +450,14 @@ Page "Actlualités" et catégories / archives
     font-style: italic !important;
 }
 
-.page h5 {
+.statique h5 {
     padding-bottom: 15px;
     padding-top: 10px;
     font-size: 20px;
     font-weight: bold !important;
 }
 
-.page p {
+.statique p {
     padding-bottom: 7px;
 }
 
@@ -469,7 +468,7 @@ Page "Actlualités" et catégories / archives
     font-size: 15px;
 }
 
-.page blockquote {
+.statique blockquote {
     color: #51545C;
     font-style: italic !important;
 }
