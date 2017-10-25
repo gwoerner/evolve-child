@@ -435,6 +435,11 @@ Page "Actlualités" et catégories / archives
     display: none;
 }
 
+
+/* ===============================================================================
+Pages statiques - accessibles depuis le bas de page 
+===============================================================================*/
+
 .statique .entry-content h3 {
     padding-bottom: 30px;
     padding-top: 10px;
@@ -471,4 +476,21 @@ Page "Actlualités" et catégories / archives
 .statique blockquote {
     color: #51545C;
     font-style: italic !important;
+}
+
+/* ===============================================================================
+Articles
+===============================================================================*/
+
+.article h3 {
+    padding: 10px 0 20px 0;
+    font-weight: bold !important;
+    font-size: 25px;
+}
+
+.article h4 {
+    padding: 10px 0 15px 0;
+    font-weight: bold !important;
+    font-style: italic !important;
+    font-size: 22px;
 }
