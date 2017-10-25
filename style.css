@@ -473,8 +473,8 @@ Pages statiques - accessibles depuis le bas de page
     font-size: 15px;
 }
 
-.statique blockquote {
-    color: #51545C;
+blockquote {
+    color: #51545C !important;
     font-style: italic !important;
 }
 
