@@ -278,6 +278,7 @@ Nos UPR
 .pave a h4, .pave a p {
     color: #FFFFFF;
     font-weight: bold;
+    font-style: normal;
 }
 
 .nip h4, .vlan h4, .ess h4 {
@@ -444,7 +445,7 @@ Page "Actlualités" et catégories / archives
 
 .page h4 {
     padding-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 24px;
     font-weight: bold !important;
     font-style: italic !important;
@@ -466,4 +467,9 @@ Page "Actlualités" et catégories / archives
     width: 24%;
     margin: 3px;
     font-size: 15px;
+}
+
+.page blockquote {
+    color: #51545C;
+    font-style: italic !important;
 }
