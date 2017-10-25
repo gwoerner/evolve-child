@@ -13,3 +13,14 @@ function my_theme_enqueue_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' ); 
+
+
+// Suppression des commentaires sur l'ensemble du site 
+
+add_filter('comments_open', 'wpc_comments_closed', 10, 2);
+
+function wpc_comments_closed( $open, $post_id ) {
+$post = get_post( $post_id );
+$open = false;
+return $open;
+}
