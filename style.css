@@ -238,9 +238,13 @@ Nos UPR
     color: #F8A13C !important;
 }
 
-#upr h4 {
+#upr .pave h4 {
     font-size: 28px;
     font-style: normal !important;
+    padding: 0px;
+}
+
+#upr p {
     padding: 0px;
 }
 
