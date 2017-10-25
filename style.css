@@ -242,8 +242,8 @@ Nos UPR
 
 
 @media all and (min-width: 768px) {
-    #upr .col-md-2 {
-        width: 22%;
+    #upr .col-md-4 {
+/*        width: 22%;*/
         margin: 10px;
         height: 100px;
     }
