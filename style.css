@@ -418,10 +418,10 @@ Page "Actlualités" et catégories / archives
     font-size: 26px;
 }
 
- .blog .entry-title a {
+.blog .entry-title a {
     font-size: 26px !important;
- }
- 
+}
+
 /*bouton "lire plus"*/
 .read-more {
     color: #ffffff !important;
@@ -433,4 +433,30 @@ Page "Actlualités" et catégories / archives
 
 .entry-tags {
     display: none;
+}
+
+.entry-title h3 {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 32px;
+    color: #333;
+}
+
+.entry-title h4 {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic !important;
+}
+
+.entry-title p {
+    padding-bottom: 7px;
+}
+
+#fondateurs col-md-3 {
+    min-height: 290px;
+    width: 24%;
+    margin: 3px;
+    font-size: 15px;
 }
