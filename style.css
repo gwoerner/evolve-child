@@ -435,7 +435,7 @@ Page "Actlualités" et catégories / archives
     display: none;
 }
 
-.page h3 {
+.page .entry-content h3 {
     padding-bottom: 30px;
     padding-top: 10px;
     font-size: 32px;
