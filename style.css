@@ -69,6 +69,23 @@ En-tête et logo
 
 .header {
     height: 350px;
+    background-image: url("images/logoGalileesp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+@media all and (max-width: 767px) and (min-width: 600px) {
+    .header {
+        height: 290px;
+    }
+}
+
+@media all and (max-width: 599px) {
+    .header {
+        height: 230px;
+        background-image: url("images/logoGalileesp-vertical.png");
+    }
 }
 
 #logo a {
