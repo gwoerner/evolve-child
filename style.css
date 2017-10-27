@@ -499,8 +499,7 @@ Pages statiques - accessibles depuis le bas de page
 
 #fondateurs .col-md-3 {
     min-height: 290px;
-    width: 24%;
-    margin: 3px;
+    padding: 3px;
     font-size: 15px;
 }
 
