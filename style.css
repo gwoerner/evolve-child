@@ -53,6 +53,10 @@ h3, h4, h5, h6 {
     .titre-accueil {
         width: 40%;
     }
+    
+    #images-videos .titre-accueil {
+        width: 50%;
+    }
 }
 
 img {
