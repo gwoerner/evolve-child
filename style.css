@@ -154,6 +154,10 @@ Nos rendez-vous
     border: none;
 }
 
+.recent-post-slider .post-image-bg img {
+    object-position: top left;
+}
+
 /*!==========================================================================
    Bloc d'actualité
    ========================================================================== */
