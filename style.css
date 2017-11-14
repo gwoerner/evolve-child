@@ -143,6 +143,10 @@ body #header.sticky-header.sticky {
     box-shadow: 2px 2px 5px !important;
 }
 
+#sticky-logo {
+    display: none;
+}
+
 /* ===============================================================================
 Intro sur Galilée.sp
 ================================================================================ */
