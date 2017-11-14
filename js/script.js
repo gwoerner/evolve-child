@@ -15,7 +15,5 @@ window.onscroll = function () {
 function scrollDownFunction() {
     if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
         document.getElementById("logo-image").style.display = "contents";
-    } else {
-        document.getElementById("logo-image").style.display = "none";
-    }
+    } 
 }
