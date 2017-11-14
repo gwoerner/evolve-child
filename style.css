@@ -139,6 +139,10 @@ En-tête et logo
     position: absolute;
 }
 
+.logo-image {
+    display: none; /* par défaut, le logo dans l'en-tête est caché */
+}
+
 
 /* ===============================================================================
 Nos rendez-vous
