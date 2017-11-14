@@ -140,7 +140,7 @@ En-tête et logo
 }
 
 sticky {
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px !important;
 }
 
 /* ===============================================================================
