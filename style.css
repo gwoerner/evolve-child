@@ -139,8 +139,22 @@ En-tête et logo
     position: absolute;
 }
 
-#logo-image {
-    display: none;  /* par défaut, le logo dans l'en-tête est caché  */
+/* ===============================================================================
+Intro sur Galilée.sp
+================================================================================ */
+
+#intro h4::before {
+    content: url(images/point-rose.png);
+    padding-right: 6px;
+    position: relative;
+    top: 6px;
+}
+
+#intro h4::after {
+    content: url(images/3points.png);
+    padding-left: 6px;
+    position: relative;
+    top: 6px;
 }
 
 
