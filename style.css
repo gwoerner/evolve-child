@@ -140,7 +140,7 @@ En-tête et logo
 }
 
 #logo-image {
-    display: none; /* par défaut, le logo dans l'en-tête est caché */
+    /*display: none;  par défaut, le logo dans l'en-tête est caché */
 }
 
 
