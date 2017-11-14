@@ -139,7 +139,7 @@ En-tête et logo
     position: absolute;
 }
 
-#header.sticky {
+sticky {
     box-shadow: 2px 2px 5px;
 }
 
