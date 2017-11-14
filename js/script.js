@@ -9,7 +9,7 @@
 
 window.onscroll = function () {
     scrollDownFunction();
-//    scrollStart();
+    scrollStart();
 };
 
 function scrollDownFunction() {
